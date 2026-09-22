@@ -1,11 +1,11 @@
 name: Instaslate
-version: v1.1.0
+version: v1.2.0
 output: build
 
 data_pack:
   description: "Instamine Deepslate with Eff 5 Netherite Pickaxe + Haste 2.."
-  min_format: 101
-  max_format: 101
+  min_format: 121
+  max_format: 121
   zipped: true
   load:
     - src

@@ -6,6 +6,7 @@
 # executing player's main hand.
 #####################################################################
 
+say activate
 function instaslate:pickaxe/api/scan_inventory
 item modify entity @s weapon.mainhand instaslate:set_tool
 advancement revoke @s only instaslate:deactivate_boost

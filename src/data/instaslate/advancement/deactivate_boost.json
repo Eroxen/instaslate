@@ -3,15 +3,10 @@
     "requirement": {
       "trigger": "minecraft:tick",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "instaslate:boost_valid"
-            }
-          }
-        ]
+        "player": {
+          "type": "minecraft:inverted",
+          "term": "instaslate:boost_valid"
+        }
       }
     }
   },

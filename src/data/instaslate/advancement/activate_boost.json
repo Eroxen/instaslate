@@ -3,12 +3,7 @@
     "requirement": {
       "trigger": "minecraft:tick",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "instaslate:apply_speed_boost"
-          }
-        ]
+        "player": "instaslate:apply_speed_boost"
       }
     }
   },
